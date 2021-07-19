@@ -149,6 +149,17 @@ body {
 	margin: auto;
 	animation: setting .5s infinite linear;
 }
+.views{
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+.views > p{
+	margin-right: .3rem;
+	font-size: .8rem;
+	color:green;
+	opacity: .5;
+}
 @keyframes setting {
 	0% {
 		transform: rotate(0deg);
